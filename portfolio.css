@@ -245,6 +245,21 @@ header {
     -ms-filter: blur(3px);
     
 }
+@media (min-width:300px) {
+    .bgimg{
+        height:130vh;
+    }
+}
+@media (min-width:600px) {
+    .bgimg{
+        height:70vh
+    }
+}
+@media (min-width:900px) {
+    .bgimg{
+        height:100vh
+    }
+}
 .section__title--service {
     color: var(--clr-accent);
     position: relative;
@@ -283,17 +298,17 @@ header {
 
 @media (min-width: 800px) {
     .service {
-          /* display: flex;  */
+          
         max-width: 800px;
         margin-left: auto;
         margin-right: auto;
          padding:20px;  
-        /* text-align: center; */
     }
     .service2 {
     max-width: 800px;
-    margin: 0 auto;
+    margin:  auto;
     position: relative;
+    padding:20PX;
 }
     
     .service + .service {
