@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-/* Custom Properties, update these for your own design */
+
 
 :root {
     --ff-primary: 'Source Sans Pro', sans-serif;
@@ -35,7 +35,7 @@
     }
 }
 
-/* General styles */
+
 
 body {
     background: var(--clr-light);
@@ -62,7 +62,7 @@ strong { font-weight: var(--fw-bold) }
     outline-offset: 3px;
 }
 
-/* Buttons */
+
 
 .btn {
     display: inline-block;
@@ -82,7 +82,7 @@ strong { font-weight: var(--fw-bold) }
     transform: scale(1.1);
 }
 
-/* Typography */
+
 
 h1,
 h2,
