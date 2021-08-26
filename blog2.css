@@ -109,7 +109,7 @@ hr{
     color: rgb(185, 189, 189);
     height: 1px;
     margin:2px;
-    max-width:900px
+    max-width:800px
 }
 h3{
     font-size:var(--fs-h3);
@@ -136,7 +136,7 @@ article{
 
 .footer__link {
     font-weight: var(--fw-bold);
-    color:var(--clr-accent)
+    color:var(--clr-accent);
 }
 
 .footer_link:hover,
@@ -154,6 +154,7 @@ article{
     justify-content: center;
     margin: 2em 0 0;
     padding: 0;
+  
 }
 
 .social_list_item {
