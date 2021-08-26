@@ -63,8 +63,8 @@ h2,h3{
 }
 .link-primary {
     display: inline-block;
-    padding: 1em 2.7em;
-    margin:3em;
+    padding: 0.5em 2em;
+    margin:auto;
     background: var(--clr-accent);
     color: var(--clr-dark);
     text-decoration: none;
@@ -77,8 +77,8 @@ h2,h3{
 }
 .link-secondary {
     display: inline-block;
-    padding: 1em 2.7em;
-    margin:3em;
+    padding: 0.5em 2em;
+    margin:auto;
     background: var(--clr-light);
     border:1px solid var(--clr-accent);
     color: var(--clr-dark);
